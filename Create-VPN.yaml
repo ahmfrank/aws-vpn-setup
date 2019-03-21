@@ -159,5 +159,5 @@ Outputs:
         - VPNServerInstance
         - PublicIp
   FrankNotes:
-    Description: Allow upto 5 minutes after setup to connect. Please contact us a
+    Description: Allow upto 5 minutes after setup to connect. Please contact us 
     Value: Comments
