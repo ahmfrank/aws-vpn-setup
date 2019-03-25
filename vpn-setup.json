@@ -1,6 +1,7 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Setting up your own private and secure VPN. You can read instructions on our blog https://www.webdigi.co.uk/blog/2015/how-to-setup-your-own-private-secure-free-vpn-on-the-amazon-aws-cloud-in-10-minutes/ and you can follow video instructions on Youtube https://www.youtube.com/watch?v=fBBERp5CUgo",
+  "Description": "Setting up your own private and secure VPN",
+
   "Parameters": {
     "Username": {
       "Description": "VPN Username",
@@ -70,7 +71,7 @@
       },
       "eu-west-3": {
         "HVM64": "ami-c1cf79bc"
-      },          
+      },
       "eu-central-1": {
         "HVM64": "ami-060cde69"
       },
@@ -655,9 +656,5 @@
         ]
       }
     },
-    "WebdigiNotes": {
-      "Description": "Allow upto 5 minutes after setup to connect. Please contact us at https://www.webdigi.co.uk/blog/2015/how-to-setup-your-own-private-secure-free-vpn-on-the-amazon-aws-cloud-in-10-minutes/ for any help!",
-      "Value": "Comments"
-    }
   }
 }
